@@ -1,0 +1,967 @@
+{
+  "audit": {
+    "rows": 51290,
+    "columns": 24,
+    "dash_format_share": 0.6087541431078183,
+    "postal_code_missing_pct": 80.51472021836615,
+    "exact_duplicates": 0,
+    "repeat_order_product_lines": 38,
+    "nonpositive_sales": 0,
+    "nonpositive_qty": 0,
+    "discount_min": 0.0,
+    "discount_max": 0.85,
+    "loss_lines": 12544,
+    "loss_lines_pct": 24.457009163579645,
+    "markets": 7,
+    "countries": 147,
+    "products": 10292
+  },
+  "overall": {
+    "sales": 12642501.90988,
+    "profit": 1467457.29128,
+    "margin_pct": 11.607332960995604,
+    "orders": 25035.0,
+    "customers": 1590.0,
+    "lines": 51290.0,
+    "avg_discount_pct": 14.290754533047378,
+    "loss_lines_pct": 24.457009163579645,
+    "aov": 504.9930860746954,
+    "shipping_cost": 1352820.69,
+    "shipping_pct_sales": 10.700577303791293
+  },
+  "yearly": [
+    {
+      "year": 2011,
+      "sales": 2259450.89554,
+      "profit": 248940.81154000002,
+      "margin_pct": 11.01775710334719,
+      "orders": 4440.0,
+      "customers": 1309.0,
+      "lines": 8998.0,
+      "avg_discount_pct": 14.818781951544791,
+      "sales_growth_pct": NaN,
+      "profit_growth_pct": NaN,
+      "aov": 508.8853368333333,
+      "orders_per_customer": 3.391902215431627,
+      "sales_per_customer": 1726.089301405653,
+      "new_customers": 1309
+    },
+    {
+      "year": 2012,
+      "sales": 2677438.6944000004,
+      "profit": 307415.27910000004,
+      "margin_pct": 11.481692549785539,
+      "orders": 5343.0,
+      "customers": 1373.0,
+      "lines": 10962.0,
+      "avg_discount_pct": 14.128571428571426,
+      "sales_growth_pct": 18.499530115262928,
+      "profit_growth_pct": 23.489305428975136,
+      "aov": 501.11149062324546,
+      "orders_per_customer": 3.8914785142024764,
+      "sales_per_customer": 1950.0645989803354,
+      "new_customers": 210
+    },
+    {
+      "year": 2013,
+      "sales": 3405746.44938,
+      "profit": 406935.23018,
+      "margin_pct": 11.948488715420392,
+      "orders": 6721.0,
+      "customers": 1458.0,
+      "lines": 13799.0,
+      "avg_discount_pct": 14.026538154938764,
+      "sales_growth_pct": 27.201659425602998,
+      "profit_growth_pct": 32.37313102047437,
+      "aov": 506.7321007855974,
+      "orders_per_customer": 4.609739368998628,
+      "sales_per_customer": 2335.902914526749,
+      "new_customers": 56
+    },
+    {
+      "year": 2014,
+      "sales": 4299865.87056,
+      "profit": 504165.97046,
+      "margin_pct": 11.725155752226735,
+      "orders": 8531.0,
+      "customers": 1511.0,
+      "lines": 17531.0,
+      "avg_discount_pct": 14.32911984484627,
+      "sales_growth_pct": 26.253258557834513,
+      "profit_growth_pct": 23.89341916574581,
+      "aov": 504.0283519587387,
+      "orders_per_customer": 5.645929847782925,
+      "sales_per_customer": 2845.70871645268,
+      "new_customers": 15
+    }
+  ],
+  "sales_cagr_pct": 23.922642901853997,
+  "sales_growth_total_pct": 90.30578974066832,
+  "profit_growth_total_pct": 102.52443435896414,
+  "growth_drivers_pct": {
+    "orders": 92.1,
+    "customers": 15.4,
+    "orders_per_customer": 66.5,
+    "aov": -1.0,
+    "sales_per_customer": 64.9,
+    "new_customers": -98.9
+  },
+  "season_month_share_pct": {
+    "1": 5.23,
+    "2": 4.25,
+    "3": 6.12,
+    "4": 5.51,
+    "5": 7.16,
+    "6": 10.02,
+    "7": 5.83,
+    "8": 10.18,
+    "9": 11.48,
+    "10": 9.18,
+    "11": 12.3,
+    "12": 12.75
+  },
+  "quarter_share_pct": {
+    "1": 15.7,
+    "2": 22.7,
+    "3": 27.5,
+    "4": 34.0
+  },
+  "nov_dec_share_pct": 25.051995310909426,
+  "jan_feb_share_pct": 9.476352927020848,
+  "markets": [
+    {
+      "market": "APAC",
+      "sales": 3585744.1289999997,
+      "profit": 436000.049,
+      "margin_pct": 12.159262716874132,
+      "orders": 5437.0,
+      "customers": 796.0,
+      "lines": 11002.0,
+      "avg_discount_pct": 14.88393019451009,
+      "share_lines_over_30pct_discount": 21.841483366660608,
+      "margin_at_max_20pct_discount": 20.370446317235842,
+      "sales_share_pct": 28.362614888733162
+    },
+    {
+      "market": "EU",
+      "sales": 2938089.0615,
+      "profit": 372829.7415,
+      "margin_pct": 12.689531654621018,
+      "orders": 4593.0,
+      "customers": 795.0,
+      "lines": 10000.0,
+      "avg_discount_pct": 10.310500000000001,
+      "share_lines_over_30pct_discount": 15.459999999999999,
+      "margin_at_max_20pct_discount": 20.804912462351265,
+      "sales_share_pct": 23.23977550047993
+    },
+    {
+      "market": "US",
+      "sales": 2297200.8603,
+      "profit": 286397.0217,
+      "margin_pct": 12.467217240315605,
+      "orders": 5009.0,
+      "customers": 793.0,
+      "lines": 9994.0,
+      "avg_discount_pct": 15.62027216329798,
+      "share_lines_over_30pct_discount": 11.667000200120071,
+      "margin_at_max_20pct_discount": 21.803473001676174,
+      "sales_share_pct": 18.170460852410535
+    },
+    {
+      "market": "LATAM",
+      "sales": 2164605.16708,
+      "profit": 221643.48708,
+      "margin_pct": 10.239441836821987,
+      "orders": 5138.0,
+      "customers": 794.0,
+      "lines": 10294.0,
+      "avg_discount_pct": 13.553118321352242,
+      "share_lines_over_30pct_discount": 25.403147464542453,
+      "margin_at_max_20pct_discount": 20.271617949573763,
+      "sales_share_pct": 17.121651889080443
+    },
+    {
+      "market": "EMEA",
+      "sales": 806161.311,
+      "profit": 43897.971000000005,
+      "margin_pct": 5.445308575469458,
+      "orders": 2462.0,
+      "customers": 760.0,
+      "lines": 5029.0,
+      "avg_discount_pct": 19.608272022270828,
+      "share_lines_over_30pct_discount": 31.994432292702324,
+      "margin_at_max_20pct_discount": 24.597427459719306,
+      "sales_share_pct": 6.376596315718111
+    },
+    {
+      "market": "Africa",
+      "sales": 783773.211,
+      "profit": 88871.631,
+      "margin_pct": 11.33894725575151,
+      "orders": 2232.0,
+      "customers": 754.0,
+      "lines": 4587.0,
+      "avg_discount_pct": 15.67037279267495,
+      "share_lines_over_30pct_discount": 22.280357532156092,
+      "margin_at_max_20pct_discount": 24.5122153272917,
+      "sales_share_pct": 6.199510323091099
+    },
+    {
+      "market": "Canada",
+      "sales": 66928.17,
+      "profit": 17817.39,
+      "margin_pct": 26.621660206755987,
+      "orders": 201.0,
+      "customers": 181.0,
+      "lines": 384.0,
+      "avg_discount_pct": 0.0,
+      "share_lines_over_30pct_discount": 0.0,
+      "margin_at_max_20pct_discount": 26.621660206755987,
+      "sales_share_pct": 0.5293902304867064
+    }
+  ],
+  "categories": [
+    {
+      "category": "Technology",
+      "sales": 4744557.49808,
+      "profit": 663778.73318,
+      "margin_pct": 13.990319085575717,
+      "orders": 8354.0,
+      "customers": 1485.0,
+      "lines": 10141.0,
+      "avg_discount_pct": 13.534247115669066,
+      "margin_at_max_20pct_discount": 22.268477458806863
+    },
+    {
+      "category": "Office Supplies",
+      "sales": 3787070.2255,
+      "profit": 518473.8343,
+      "margin_pct": 13.690631634155842,
+      "orders": 19003.0,
+      "customers": 1585.0,
+      "lines": 31273.0,
+      "avg_discount_pct": 13.740894701499698,
+      "margin_at_max_20pct_discount": 22.439231788861324
+    },
+    {
+      "category": "Furniture",
+      "sales": 4110874.1863,
+      "profit": 285204.7238,
+      "margin_pct": 6.93781202914164,
+      "orders": 8195.0,
+      "customers": 1427.0,
+      "lines": 9876.0,
+      "avg_discount_pct": 16.80872823005265,
+      "margin_at_max_20pct_discount": 18.86669463308831
+    }
+  ],
+  "subcategories": [
+    {
+      "category": "Furniture",
+      "sub_category": "Tables",
+      "sales": 757041.9243999999,
+      "profit": -64083.3887,
+      "margin_pct": -8.464972233973679,
+      "orders": 836.0,
+      "customers": 563.0,
+      "lines": 861.0,
+      "avg_discount_pct": 29.07317073170732
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Fasteners",
+      "sales": 83242.3159,
+      "profit": 11525.4241,
+      "margin_pct": 13.845631245826498,
+      "orders": 2304.0,
+      "customers": 1045.0,
+      "lines": 2420.0,
+      "avg_discount_pct": 14.059504132231403
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Labels",
+      "sales": 73404.03,
+      "profit": 15010.511999999999,
+      "margin_pct": 20.449166074396732,
+      "orders": 2460.0,
+      "customers": 1079.0,
+      "lines": 2606.0,
+      "avg_discount_pct": 12.044896392939371
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Supplies",
+      "sales": 243074.2206,
+      "profit": 22583.2631,
+      "margin_pct": 9.290686212736128,
+      "orders": 2281.0,
+      "customers": 1053.0,
+      "lines": 2425.0,
+      "avg_discount_pct": 12.791752577319587
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Envelopes",
+      "sales": 170904.3016,
+      "profit": 29601.1163,
+      "margin_pct": 17.32028744910187,
+      "orders": 2310.0,
+      "customers": 1046.0,
+      "lines": 2435.0,
+      "avg_discount_pct": 13.17494866529774
+    },
+    {
+      "category": "Furniture",
+      "sub_category": "Furnishings",
+      "sales": 385578.2559,
+      "profit": 46967.4255,
+      "margin_pct": 12.181035828996809,
+      "orders": 2965.0,
+      "customers": 1114.0,
+      "lines": 3170.0,
+      "avg_discount_pct": 15.106624605678235
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Art",
+      "sales": 372091.9659,
+      "profit": 57953.9109,
+      "margin_pct": 15.575157813424855,
+      "orders": 4366.0,
+      "customers": 1396.0,
+      "lines": 4883.0,
+      "avg_discount_pct": 11.736227728855212
+    },
+    {
+      "category": "Technology",
+      "sub_category": "Machines",
+      "sales": 779060.0671000001,
+      "profit": 58867.873,
+      "margin_pct": 7.55626882778523,
+      "orders": 1422.0,
+      "customers": 908.0,
+      "lines": 1486.0,
+      "avg_discount_pct": 16.95827725437416
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Paper",
+      "sales": 244291.7194,
+      "profit": 59207.68269999999,
+      "margin_pct": 24.23646730450741,
+      "orders": 3234.0,
+      "customers": 1098.0,
+      "lines": 3538.0,
+      "avg_discount_pct": 10.946862634256641
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Binders",
+      "sales": 461911.5057,
+      "profit": 72449.846,
+      "margin_pct": 15.684789208748217,
+      "orders": 5392.0,
+      "customers": 1408.0,
+      "lines": 6152.0,
+      "avg_discount_pct": 17.920676202860857
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Storage",
+      "sales": 1127085.8613999998,
+      "profit": 108461.4898,
+      "margin_pct": 9.623178988801751,
+      "orders": 4534.0,
+      "customers": 1398.0,
+      "lines": 5059.0,
+      "avg_discount_pct": 13.84641233445345
+    },
+    {
+      "category": "Technology",
+      "sub_category": "Accessories",
+      "sales": 749237.0185,
+      "profit": 129626.30619999999,
+      "margin_pct": 17.30110806050622,
+      "orders": 2889.0,
+      "customers": 1113.0,
+      "lines": 3075.0,
+      "avg_discount_pct": 12.048130081300814
+    },
+    {
+      "category": "Furniture",
+      "sub_category": "Chairs",
+      "sales": 1501681.7642,
+      "profit": 140396.26750000002,
+      "margin_pct": 9.349268989411625,
+      "orders": 3187.0,
+      "customers": 1092.0,
+      "lines": 3434.0,
+      "avg_discount_pct": 16.31100757134537
+    },
+    {
+      "category": "Office Supplies",
+      "sub_category": "Appliances",
+      "sales": 1011064.3049999999,
+      "profit": 141680.5894,
+      "margin_pct": 14.013014671702805,
+      "orders": 1686.0,
+      "customers": 909.0,
+      "lines": 1755.0,
+      "avg_discount_pct": 14.170940170940172
+    },
+    {
+      "category": "Furniture",
+      "sub_category": "Bookcases",
+      "sales": 1466572.2418,
+      "profit": 161924.41950000002,
+      "margin_pct": 11.041012156432322,
+      "orders": 2284.0,
+      "customers": 1044.0,
+      "lines": 2411.0,
+      "avg_discount_pct": 15.37577768560763
+    },
+    {
+      "category": "Technology",
+      "sub_category": "Phones",
+      "sales": 1706824.1392,
+      "profit": 216717.0058,
+      "margin_pct": 12.697090509955919,
+      "orders": 3133.0,
+      "customers": 1163.0,
+      "lines": 3357.0,
+      "avg_discount_pct": 14.584748287161156
+    },
+    {
+      "category": "Technology",
+      "sub_category": "Copiers",
+      "sales": 1509436.2732799998,
+      "profit": 258567.54817999998,
+      "margin_pct": 17.13007383995971,
+      "orders": 2120.0,
+      "customers": 1019.0,
+      "lines": 2223.0,
+      "avg_discount_pct": 11.714709851551957
+    }
+  ],
+  "tables": {
+    "sales": 757041.9243999999,
+    "profit": -64083.3887,
+    "avg_discount_pct": 29.07317073170732,
+    "share_lines_over_30pct": 40.76655052264808,
+    "profit_if_discount_max_20": 68457.76269999999,
+    "sales_if_discount_max_20": 423013.493
+  },
+  "discount_bands": [
+    {
+      "discount_band": "0%",
+      "sales": 6992410.95,
+      "profit": 1770695.2732000002,
+      "margin_pct": 25.32310079973203,
+      "orders": 15211.0,
+      "customers": 1581.0,
+      "lines": 29009.0,
+      "avg_discount_pct": 0.0,
+      "lines_share_pct": 56.558783388574774,
+      "sales_share_pct": 55.308759293407704
+    },
+    {
+      "discount_band": "1-10%",
+      "sales": 1962618.8453799998,
+      "profit": 338189.26138,
+      "margin_pct": 17.2315303185892,
+      "orders": 3028.0,
+      "customers": 810.0,
+      "lines": 4679.0,
+      "avg_discount_pct": 8.938277409702927,
+      "lines_share_pct": 9.12263599142133,
+      "sales_share_pct": 15.523975075267588
+    },
+    {
+      "discount_band": "11-20%",
+      "sales": 1757261.3354,
+      "profit": 173254.8434,
+      "margin_pct": 9.859366954122537,
+      "orders": 4363.0,
+      "customers": 793.0,
+      "lines": 6274.0,
+      "avg_discount_pct": 19.21740516416959,
+      "lines_share_pct": 12.232403977383505,
+      "sales_share_pct": 13.899632746163293
+    },
+    {
+      "discount_band": "21-30%",
+      "sales": 382554.68928000005,
+      "profit": -21155.61312,
+      "margin_pct": -5.530088563236967,
+      "orders": 843.0,
+      "customers": 516.0,
+      "lines": 967.0,
+      "avg_discount_pct": 27.3569803516029,
+      "lines_share_pct": 1.8853577695457207,
+      "sales_share_pct": 3.025941320847554
+    },
+    {
+      "discount_band": "31-50%",
+      "sales": 1176031.42828,
+      "profit": -380944.81582,
+      "margin_pct": -32.39240097325879,
+      "orders": 3674.0,
+      "customers": 795.0,
+      "lines": 6189.0,
+      "avg_discount_pct": 43.55676199709161,
+      "lines_share_pct": 12.066679664651978,
+      "sales_share_pct": 9.302204869440773
+    },
+    {
+      "discount_band": ">50%",
+      "sales": 371624.66154,
+      "profit": -412581.65776,
+      "margin_pct": -111.02106519257242,
+      "orders": 2369.0,
+      "customers": 1250.0,
+      "lines": 4172.0,
+      "avg_discount_pct": 65.80862895493767,
+      "lines_share_pct": 8.134139208422694,
+      "sales_share_pct": 2.9394866948730987
+    }
+  ],
+  "discount": {
+    "lines_over_20_pct": 22.086176642620394,
+    "lines_over_20": 11328,
+    "sales_over_20": 1930210.7791000002,
+    "profit_over_20": -814682.0867000001,
+    "margin_over_20": -42.206897584514685,
+    "margin_no_discount": 25.32310079973203,
+    "lines_no_discount_pct": 56.558783388574774,
+    "profit_if_loss_removed": 2282139.3779800003,
+    "profit_share_lost_pct": 55.516579020121796,
+    "loss_lines_share_with_over_20_pct": 89.86581920903954,
+    "loss_from_all_loss_lines": -920646.15572,
+    "margin_up_to_20": 21.303933492086017
+  },
+  "scenario": [
+    {
+      "discount_cap_pct": 20,
+      "volume_retained_pct": 100,
+      "profit_change": 1032488.4368999999,
+      "profit_change_pct_of_total": 70.35901099373083,
+      "new_total_profit": 2499945.7281799996,
+      "new_total_sales": 13674990.346779998,
+      "sales_change_pct": 8.166804674105844,
+      "new_margin_pct": 18.281151684824795
+    },
+    {
+      "discount_cap_pct": 20,
+      "volume_retained_pct": 75,
+      "profit_change": 978036.8493499999,
+      "profit_change_pct_of_total": 66.64840300032857,
+      "new_total_profit": 2445494.14063,
+      "new_total_sales": 12934315.542779999,
+      "sales_change_pct": 2.3081952842890274,
+      "new_margin_pct": 18.907023974647714
+    },
+    {
+      "discount_cap_pct": 20,
+      "volume_retained_pct": 50,
+      "profit_change": 923585.2618,
+      "profit_change_pct_of_total": 62.93779500692631,
+      "new_total_profit": 2391042.55308,
+      "new_total_sales": 12193640.73878,
+      "sales_change_pct": -3.5504141055277882,
+      "new_margin_pct": 19.608930624597267
+    },
+    {
+      "discount_cap_pct": 20,
+      "volume_retained_pct": 25,
+      "profit_change": 869133.67425,
+      "profit_change_pct_of_total": 59.22718701352405,
+      "new_total_profit": 2336590.96553,
+      "new_total_sales": 11452965.934779998,
+      "sales_change_pct": -9.409023495344615,
+      "new_margin_pct": 20.401623289861675
+    },
+    {
+      "discount_cap_pct": 20,
+      "volume_retained_pct": 0,
+      "profit_change": 814682.0867000001,
+      "profit_change_pct_of_total": 55.516579020121796,
+      "new_total_profit": 2282139.3779800003,
+      "new_total_sales": 10712291.130779998,
+      "sales_change_pct": -15.267632885161431,
+      "new_margin_pct": 21.30393349208602
+    },
+    {
+      "discount_cap_pct": 30,
+      "volume_retained_pct": 100,
+      "profit_change": 673684.77318,
+      "profit_change_pct_of_total": 45.9083052831046,
+      "new_total_profit": 2141142.06446,
+      "new_total_sales": 13316186.68306,
+      "sales_change_pct": 5.32872985096029,
+      "new_margin_pct": 16.079243370655234
+    },
+    {
+      "discount_cap_pct": 30,
+      "volume_retained_pct": 75,
+      "profit_change": 703645.19828,
+      "profit_change_pct_of_total": 47.94996096044748,
+      "new_total_profit": 2171102.48956,
+      "new_total_sales": 12760851.46731,
+      "sales_change_pct": 0.9361244971417548,
+      "new_margin_pct": 17.013774473606272
+    },
+    {
+      "discount_cap_pct": 30,
+      "volume_retained_pct": 50,
+      "profit_change": 733605.62338,
+      "profit_change_pct_of_total": 49.991616637790344,
+      "new_total_profit": 2201062.9146600002,
+      "new_total_sales": 12205516.251559999,
+      "sales_change_pct": -3.4564808566767913,
+      "new_margin_pct": 18.03334549145908
+    },
+    {
+      "discount_cap_pct": 30,
+      "volume_retained_pct": 25,
+      "profit_change": 763566.04848,
+      "profit_change_pct_of_total": 52.03327231513322,
+      "new_total_profit": 2231023.33976,
+      "new_total_sales": 11650181.03581,
+      "sales_change_pct": -7.849086210495326,
+      "new_margin_pct": 19.15011734926988
+    },
+    {
+      "discount_cap_pct": 30,
+      "volume_retained_pct": 0,
+      "profit_change": 793526.47358,
+      "profit_change_pct_of_total": 54.074927992476084,
+      "new_total_profit": 2260983.76486,
+      "new_total_sales": 11094845.82006,
+      "sales_change_pct": -12.241691564313872,
+      "new_margin_pct": 20.378685756696463
+    }
+  ],
+  "scenario_lines_affected": {
+    "cap20": 11328,
+    "cap30": 10361
+  },
+  "countries": {
+    "n_countries": 147,
+    "n_loss": 29,
+    "total_loss": -447899.66693999997,
+    "top10_loss": -355054.71660000004,
+    "top10": [
+      {
+        "country": "Turkey",
+        "sales": 108507.948,
+        "profit": -98447.232,
+        "avg_discount": 0.6,
+        "lines": 1378,
+        "margin_pct": -90.7281298877756,
+        "avg_discount_pct": 60.0
+      },
+      {
+        "country": "Nigeria",
+        "sales": 54350.352,
+        "profit": -80750.718,
+        "avg_discount": 0.7,
+        "lines": 905,
+        "margin_pct": -148.5744158565891,
+        "avg_discount_pct": 70.0
+      },
+      {
+        "country": "Netherlands",
+        "sales": 77514.94499999999,
+        "profit": -41070.075,
+        "avg_discount": 0.4818390804597701,
+        "lines": 435,
+        "margin_pct": -52.98342790541876,
+        "avg_discount_pct": 48.183908045977006
+      },
+      {
+        "country": "Honduras",
+        "sales": 90125.6486,
+        "profit": -29482.3714,
+        "avg_discount": 0.40683309957924263,
+        "lines": 713,
+        "margin_pct": -32.71252063976824,
+        "avg_discount_pct": 40.683309957924266
+      },
+      {
+        "country": "Pakistan",
+        "sales": 58872.612,
+        "profit": -22446.648,
+        "avg_discount": 0.44457831325301206,
+        "lines": 249,
+        "margin_pct": -38.12748787160998,
+        "avg_discount_pct": 44.45783132530121
+      },
+      {
+        "country": "Argentina",
+        "sales": 57511.78328,
+        "profit": -18693.79672,
+        "avg_discount": 0.4332102564102564,
+        "lines": 390,
+        "margin_pct": -32.50428982350971,
+        "avg_discount_pct": 43.32102564102564
+      },
+      {
+        "country": "Panama",
+        "sales": 51539.92752,
+        "profit": -17723.45248,
+        "avg_discount": 0.40629896907216495,
+        "lines": 388,
+        "margin_pct": -34.38781025278399,
+        "avg_discount_pct": 40.6298969072165
+      },
+      {
+        "country": "Sweden",
+        "sales": 30491.403,
+        "profit": -17519.367,
+        "avg_discount": 0.5078817733990147,
+        "lines": 203,
+        "margin_pct": -57.45674280714469,
+        "avg_discount_pct": 50.78817733990147
+      },
+      {
+        "country": "Philippines",
+        "sales": 183420.165,
+        "profit": -16128.225,
+        "avg_discount": 0.3458883994126285,
+        "lines": 681,
+        "margin_pct": -8.793049008542763,
+        "avg_discount_pct": 34.58883994126285
+      },
+      {
+        "country": "South Korea",
+        "sales": 33125.379,
+        "profit": -12792.831,
+        "avg_discount": 0.45290697674418606,
+        "lines": 172,
+        "margin_pct": -38.61942530529235,
+        "avg_discount_pct": 45.29069767441861
+      }
+    ],
+    "avg_discount_loss_countries_pct": 46.86662507797879,
+    "avg_discount_other_countries_pct": 8.257349508954363,
+    "best5": [
+      {
+        "country": "United States",
+        "sales": 2297200.8603,
+        "profit": 286397.0217,
+        "avg_discount": 0.1562027216329798,
+        "lines": 9994,
+        "margin_pct": 12.467217240315605,
+        "avg_discount_pct": 15.62027216329798
+      },
+      {
+        "country": "China",
+        "sales": 700562.025,
+        "profit": 150683.085,
+        "avg_discount": 0.014308510638297871,
+        "lines": 1880,
+        "margin_pct": 21.50888566933099,
+        "avg_discount_pct": 1.430851063829787
+      },
+      {
+        "country": "India",
+        "sales": 589650.105,
+        "profit": 129071.835,
+        "avg_discount": 0.017684887459807074,
+        "lines": 1555,
+        "margin_pct": 21.88956364215351,
+        "avg_discount_pct": 1.7684887459807075
+      },
+      {
+        "country": "United Kingdom",
+        "sales": 528576.3,
+        "profit": 111900.15,
+        "avg_discount": 0.06570728720146969,
+        "lines": 1633,
+        "margin_pct": 21.170103540397097,
+        "avg_discount_pct": 6.5707287201469695
+      },
+      {
+        "country": "France",
+        "sales": 858931.083,
+        "profit": 109029.003,
+        "avg_discount": 0.07228510788822072,
+        "lines": 2827,
+        "margin_pct": 12.693568221933822,
+        "avg_discount_pct": 7.228510788822072
+      }
+    ]
+  },
+  "customers": {
+    "n": 1590,
+    "top20_n": 318,
+    "top20_profit_share_pct": 63.448339095978824,
+    "top20_sales_share_pct": 41.40288520478209,
+    "n_negative": 297,
+    "negative_pct": 18.679245283018865,
+    "negative_profit": -157135.32252,
+    "neg_avg_discount_pct": 29.5563495341308,
+    "pos_avg_discount_pct": 12.20144371563233,
+    "cum_peak_pct": 110.70799971172835,
+    "cum_peak_at_customer_share_pct": 81.25786163522012,
+    "median_orders": 14.0
+  },
+  "segments": [
+    {
+      "segment": "Consumer",
+      "sales": 6507949.417859999,
+      "profit": 749239.78206,
+      "margin_pct": 11.512686008342879,
+      "orders": 13104.0,
+      "customers": 818.0,
+      "lines": 26518.0,
+      "avg_discount_pct": 14.360215702541671
+    },
+    {
+      "segment": "Corporate",
+      "sales": 3824697.52146,
+      "profit": 441208.32866000006,
+      "margin_pct": 11.53577050693352,
+      "orders": 7673.0,
+      "customers": 476.0,
+      "lines": 15429.0,
+      "avg_discount_pct": 14.293110376563611
+    },
+    {
+      "segment": "Home Office",
+      "sales": 2309854.9705600003,
+      "profit": 277009.18056,
+      "margin_pct": 11.992492346514814,
+      "orders": 4687.0,
+      "customers": 296.0,
+      "lines": 9343.0,
+      "avg_discount_pct": 14.089714224553143
+    }
+  ],
+  "shipping": {
+    "modes": [
+      {
+        "ship_mode": "Same Day",
+        "lines": 2701,
+        "sales": 667201.9839,
+        "profit": 76173.0678,
+        "shipping_cost": 115974.06,
+        "avg_days": 0.03739355794150315,
+        "min_days": 0,
+        "max_days": 1,
+        "shipping_pct_sales": 17.382151552082636,
+        "margin_pct": 11.41679276112836,
+        "sales_share_pct": 5.27745211079294,
+        "shipping_cost_share_pct": 8.572759188063571
+      },
+      {
+        "ship_mode": "First Class",
+        "lines": 7505,
+        "sales": 1830976.1382,
+        "profit": 208104.6752,
+        "shipping_cost": 308103.25,
+        "avg_days": 2.1817455029980013,
+        "min_days": 1,
+        "max_days": 3,
+        "shipping_pct_sales": 16.827267356028507,
+        "margin_pct": 11.365777568493273,
+        "sales_share_pct": 14.48270406642461,
+        "shipping_cost_share_pct": 22.77487713467777
+      },
+      {
+        "ship_mode": "Second Class",
+        "lines": 10309,
+        "sales": 2565671.68108,
+        "profit": 292583.52708,
+        "shipping_cost": 314112.62,
+        "avg_days": 3.2301872150548063,
+        "min_days": 2,
+        "max_days": 5,
+        "shipping_pct_sales": 12.242900068483301,
+        "margin_pct": 11.40377894948894,
+        "sales_share_pct": 20.294018536591643,
+        "shipping_cost_share_pct": 23.21908752001716
+      },
+      {
+        "ship_mode": "Standard Class",
+        "lines": 30775,
+        "sales": 7578652.1067,
+        "profit": 890596.0212,
+        "shipping_cost": 614630.76,
+        "avg_days": 4.998017871649066,
+        "min_days": 4,
+        "max_days": 7,
+        "shipping_pct_sales": 8.110027368278697,
+        "margin_pct": 11.751377536021975,
+        "sales_share_pct": 59.945825286190804,
+        "shipping_cost_share_pct": 45.43327615724151
+      }
+    ],
+    "express_sales_share_pct": 19.760156177217553,
+    "express_cost_share_pct": 31.34763632274134,
+    "express_cost_ratio_pct": 16.975463288563077,
+    "standard_cost_ratio_pct": 8.110027368278697,
+    "illustrative_saving": 118227.85897858425,
+    "total_shipping_cost": 1352820.69
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "timeline": "0-3 months",
+      "recommendation": "Introduce discount governance: cap standard discounts at 20% and require approval above it",
+      "evidence": "22% of lines are discounted >20% and lose 814,682 overall",
+      "estimated_impact": "+815k (all affected sales lost) to +924k (50% retained) profit; up to +1,032k if no volume is lost",
+      "kpi": "Share of lines >20% discount; margin by discount band"
+    },
+    {
+      "priority": 2,
+      "timeline": "0-3 months",
+      "recommendation": "Reprice and re-negotiate the Tables line (limit discounts, review supplier cost)",
+      "evidence": "Tables lose 64,083 with an average discount of 29%",
+      "estimated_impact": "Remove a 64k loss (overlaps with #1)",
+      "kpi": "Tables margin; Tables discount"
+    },
+    {
+      "priority": 3,
+      "timeline": "3-6 months",
+      "recommendation": "Run pricing reviews for EMEA and the most loss-making countries (Turkey, Nigeria, Netherlands, ...)",
+      "evidence": "29 countries lose 447,900; EMEA margin is 5.4% vs 24.6% at discounts <=20%",
+      "estimated_impact": "Top-10 loss-making countries lose 355,055 (largely overlaps with #1)",
+      "kpi": "Margin by country; number of loss-making countries"
+    },
+    {
+      "priority": 4,
+      "timeline": "3-6 months",
+      "recommendation": "Customer programme: protect the top 20% of customers and set discount terms for unprofitable accounts",
+      "evidence": "Top 20% = 63% of profit; 297 customers lose 157,135",
+      "estimated_impact": "Up to 157k of customer-level losses addressable (overlaps with #1)",
+      "kpi": "Profit per customer; retention of top 20%"
+    },
+    {
+      "priority": 5,
+      "timeline": "3-6 months",
+      "recommendation": "Review express shipping: charge for it, or steer low-priority orders to Standard",
+      "evidence": "Express = 20% of sales but 31% of shipping cost",
+      "estimated_impact": "About 118k (illustrative; validate how profit treats shipping)",
+      "kpi": "Shipping cost % of sales by mode"
+    },
+    {
+      "priority": 6,
+      "timeline": "6-12 months",
+      "recommendation": "Restart new-customer acquisition, as growth currently depends on a saturated customer base",
+      "evidence": "New customers fell from 210 (2012) to 15 (2014)",
+      "estimated_impact": "Growth resilience (not quantified)",
+      "kpi": "New customers per year"
+    },
+    {
+      "priority": 7,
+      "timeline": "6-12 months",
+      "recommendation": "Plan inventory, staffing and promotions around the Q4 peak; use non-discount incentives in the Jan-Feb trough",
+      "evidence": "Q4 = 34% of sales; Nov+Dec = 25%, Jan+Feb = 9%",
+      "estimated_impact": "Efficiency and service levels (not quantified)",
+      "kpi": "Forecast accuracy; stock-outs in Q4"
+    }
+  ]
+}
